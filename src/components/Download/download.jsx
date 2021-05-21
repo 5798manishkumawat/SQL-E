@@ -53,10 +53,10 @@ const Download = ({ result }) => {
 	return (
 		<div className="flex items-center">
 			<div className="relative inline-flex">
-				<img src={downSVG} alt="" className="w-2 h-2 absolute top-0 right-0 m-4 pointer-events-none" />
+				<img src={downSVG} alt="" className="w-2 h-2 absolute top-0 right-0 m-2 sm:m-4 pointer-events-none" />
 				<select
 					id="formats"
-					className="border border-gray-300 rounded-full text-gray-600 h-8 px-4 pr-8 bg-white hover:border-gray-400 focus:outline-none appearance-none"
+					className="border border-gray-300 rounded-full text-gray-600 text-xs sm:text-sm h-6 sm:h-8 px-4 pr-8 bg-white hover:border-gray-400 focus:outline-none appearance-none"
 				>
 					<option value="">Format</option>
 					<option value="csv">CSV</option>
@@ -66,7 +66,7 @@ const Download = ({ result }) => {
 			<img
 				src={download}
 				alt=""
-				className="w-8 mx-2 cursor-pointer"
+				className="w-4 sm:w-8 mx-1 sm:mx-2 cursor-pointer"
 				onClick={() => onDownload()}
 			/>
 		</div>

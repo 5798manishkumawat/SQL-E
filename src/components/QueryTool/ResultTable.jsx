@@ -3,7 +3,7 @@ import React from "react";
 const ResultTable = ({ result }) => {
 	return (
 		<>
-			<table className="w-full my-2 h-5/6 text-center table-auto border-collapse border border-black">
+			<table className="w-full mt-2 sm:my-2 h-5/6 text-center text-xxs sm:text-base table-auto border-collapse border border-black">
 				<thead className="">
 					<tr className="bg-black text-white">
 						<th className="border border-black">Order ID</th>
